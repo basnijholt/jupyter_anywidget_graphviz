@@ -68,4 +68,6 @@ The `.blocking_reply()` method on the object will also block until the response 
 
 ## Alternative solutions
 
-[viz.js](https://viz-js.com/) [[repo](https://github.com/mdaines/viz-js)] also seems to offer in browser graphviz rendering. [`KrunkZhou/jupyterlab-viz-krunk`](https://github.com/KrunkZhou/jupyterlab-viz-krunk) is a JupyterLab extension (untested) that seems to support backticked ` ```graphviz ` blocks in markdown cells.
+- [viz.js](https://viz-js.com/) [[repo](https://github.com/mdaines/viz-js)] also seems to offer in browser graphviz rendering.
+- [`KrunkZhou/jupyterlab-viz-krunk`](https://github.com/KrunkZhou/jupyterlab-viz-krunk) is a JupyterLab extension (untested) that seems to support backticked ` ```graphviz ` blocks in markdown cells.
+- [`graphviz-anywidget`](https://github.com/pipefunc/graphviz-anywidget) is an anywidget similar to this package that also uses `hpcc-js-wasm` but in addition provides interactivity via [`graphvizsvg`](https://github.com/pipefunc/graphvizsvg)
